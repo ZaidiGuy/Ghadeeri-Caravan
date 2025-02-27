@@ -440,7 +440,7 @@ footer {
     font-size: 1rem;
 }
 
-.wrapper { 
+.footer-wrapper { 
     display: flex;
     flex-direction: column;
     min-height: 40vh;
