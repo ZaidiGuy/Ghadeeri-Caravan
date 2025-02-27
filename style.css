@@ -454,6 +454,7 @@ footer {
     margin-top: 100px;
     font-family: Arial, sans-serif;
     padding: 50px 20px;
+    margin-bottom: 200px;
 }
 .contact-title{
     color: #1e1e2f;
@@ -583,6 +584,6 @@ footer {
 }
 .inprogress {
     margin-top: 200px;
-    margin-bottom: 250px;
+    margin-bottom: 450px;
     font-size: larger;
 }
