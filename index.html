@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghadeeri Caravan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Goldman:wght@400;700&family=Noto+Kufi+Arabic:wght@100..900&display=swap" rel="stylesheet">
+</head>
+ 
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <a href="index.html">
+                <img id="pic" src="./asset/image.png" alt="Logo">
+            </a>
+        </div>
+        <nav>
+            <ul class="main-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Ziarat.html">Ziarat</a></li>
+                <li><a href="Ummrah.html">Hajj/Ummrah</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    <div class="news-ticker" onclick="redirectToNewsPage()">
+        <div class="news-content">🚨 Breaking News: Ghadeeri Caravan is now officially licensed by the Government of Pakistan as a trusted travel group for religious tourism. Pilgrims can now travel with confidence and reliability! #GhadeeriCaravan #ReligiousTourism | 🚨 Breaking News: Ghadeeri Caravan is now officially licensed by the Government of Pakistan as a trusted travel group for religious tourism. Pilgrims can now travel with confidence and reliability! #GhadeeriCaravan #ReligiousTourism</div>
+    </div>
+    <div class="news-ticker reverse urdu" onclick="redirectToNewsPage()">
+        <div class="news-content"> 🚨 اہم خبر: غدیری کاروان کو حکومت پاکستان کی جانب سے معتبر سفری گروپ کا سرکاری لائسنس مل گیا! زائرین اب اعتماد اور سہولت کے ساتھ سفر کر سکتے ہیں۔ #غدیری_کاروان #زیارتیسفر |🚨 اہم خبر: غدیری کاروان کو حکومت پاکستان کی جانب سے معتبر سفری گروپ کا سرکاری لائسنس مل گیا! زائرین اب اعتماد اور سہولت کے ساتھ سفر کر سکتے ہیں۔ #غدیری_کاروان #زیارتیسفر
+        </div>
+    </div>
+
+    <section class="hero">
+        <img id="tile" src="./asset/326716352_3016060305365121_482022225127331670_n.jpg" alt="Main Image">
+        <div class="hero-text">
+            <h1>Welcome to <span id="Arabic">غدیری کارواں</span></h1>
+            <p>The Ghadeeri Caravan was founded in <strong>1990</strong> by two prominent figures, <strong>Syed Hasan Askari Zaidi (Late)</strong> and <strong>Mir Sajjad Baqri (Late)</strong>, with the aim of organizing religious pilgrimages and promoting spiritual enrichment.</p>
+        </div></p>
+        </div>
+    </section>
+
+  
+    <section>
+        <div class="title"><h2>Packages</h2></div>
+        <div class="container">
+            <a href="Ziarat.html" class="box">
+                <img src="./asset/ziarat.jpg" alt="Image 1">
+                <span>Group Ziarat Packages</span>
+            </a>
+            <a href="Ummrah.html" class="box">
+                <img src="./asset/kaaba.jpg" alt="Image 2">
+                <span>Hajj/Ummrah Packages</span>
+            </a>
+        </div>
+        <div class="description"><p class="para">Welcome to our esteemed religious travel group, 
+            dedicated to guiding pilgrims on sacred journeys for <strong>Ziarat</strong>, <strong>Hajj</strong>, 
+            and <strong>Ummrah</strong>. With years of experience, we ensure a spiritually enriching and hassle-free experience, 
+            taking care of travel, accommodation, and all essential arrangements. Our <strong> carefully designed packages</strong> to various 
+            needs, offering luxury, standard, and <strong>budget-friendly</strong> options, so every believer can embark on their spiritual journey with 
+            ease. Join us for a seamless pilgrimage, where faith, devotion, and comfort come together to create an unforgettable experience. 
+            Book your sacred journey with us today!</p></div>
+    </section>
+
+        </div>
+    </section>
+    <section class="salaar">
+        <div class="title"><h2>Our Group Leaders</h2></div>
+        <div class="salaars-container">
+            <div class="current" id="current">
+                <img src="./asset/salaar1.png" alt="Salaar 1 Hasan Iftikhar">
+                <a href="https://www.facebook.com/hasaniftikharzaidi"><h3>Syed Hasan Iftikhar Zaidi</h3></a>
+            </div>
+            <div class="previous">
+                <img src="./asset/salaar 2.png" alt="Salaar 2 Syed Hasan Askari Zaidi (Late)">
+                <h3>Syed Hasan Askari Zaidi (Late)</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial-section">
+        <h2 class="title">Devoted Pilgrims' Words</h2>
+        
+        <div class="testimonial-container">
+            <button class="prev" onclick="prevTestimonial()">&#10094;</button>
+
+            <div class="testimonial-box active">
+                <p class="testimonial-text">"JazakAllah Hasan, Mola aap ko aap ke sab ghr walon ko aur Askari Bhai ko is ka Ajar e azeem Ata farmaiy"</p>
+                <h3 class="testimonial-author">- Agha Murtaza</h3>
+            </div>
+
+            <div class="testimonial-box bigbox smallbox" >
+                <p class="testimonial-text">"For this pilgrimage trip I chose Ghadeeri Caravan which was a very good experience. Our group leader Hasan bhai took care of all the pilgrims of Imam Hussain (a.s) and conducted very good pilgrimage visits. Mawla may increase their success provision. May you be blessed always. I will also go on future pilgrimages with the Ghadeeri caravan, and I will advise other believers as well to do pilgrimages with the Ghadeeri caravan."</p>
+                <h3 class="testimonial-author">- Kaneez Fatima</h3>
+            </div>
+
+            <div class="testimonial-box bigbox smallbox" >
+                <p class="testimonial-text">"Appreciation for Our Group Leader
+                    Hasan Bhai
+                    We, the members of Ghadeeri Carvan, would like to extend our heartfelt appreciation for your exceptional leadership and dedication. Your guidance has been instrumental in our journey, both professionally and spiritually.
+                    Thank you for being a beacon of light and a source of strength for all of us. We are grateful for your unwavering support and guidance.
+                    With sincere gratitude "</p>
+                <h3 class="testimonial-author">- Shabih Fatima</h3>
+            </div>
+            <div class="testimonial-box">
+                <p class="testimonial-text">"Panjaten e Paak ke sadqe me aap ko or aap ke sab ghar walon ko bohat sari khushiyan naseeb karay. Aameen. 🤲🏼🤲🏼"</p>
+                <h3 class="testimonial-author">- Zainab Naveed</h3>
+            </div>
+            <div class="testimonial-box bigbox" id="testimonial-bigbox" >
+                <p class="testimonial-text" >@Hasan bhai
+                    Words cannot fully express our gratitude for the way you guided us on this sacred journey to Iraq for Ziyarat. From the very first moment, your kindness, care, and dedication shone through, and we felt truly blessed to have you with us. You weren’t just our salar—you were a part of this spiritual experience, ensuring that every step of our journey was smooth, safe, and filled with comfort.
+                    In moments when we were weary, your patience uplifted us. In times of silence, your quiet strength gave us peace. It is not an easy task to bear such responsibility, but you carried it with grace, reminding us of the true spirit of service.
+                    You have touched our hearts deeply, and we will always carry your kindness in our prayers. May Allah (SWT) reward you abundantly."</p>
+                <h3 class="testimonial-author">- Babar</h3>
+            </div>
+
+            <button class="next" onclick="nextTestimonial()">&#10095;</button>
+        </div>
+    </section>
+
+    <div class="wrapper">
+        <div class="main-content">
+            <!-- All content before the footer -->
+        </div>
+        <footer>
+            <p>© 2024 Ghadeeri Caravan. All Rights Reserved.</p>
+        </footer>
+    </div>
+    <script src="title.js"></script>
+</body>
+
+</html>
