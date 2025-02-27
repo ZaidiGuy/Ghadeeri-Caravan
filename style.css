@@ -438,6 +438,7 @@ footer {
     background-color: #1e1e2f;
     color: white;
     font-size: 1rem;
+    margin-bottom: 0;
 }
 
 .footer-wrapper { 
@@ -454,7 +455,7 @@ footer {
     margin-top: 100px;
     font-family: Arial, sans-serif;
     padding: 50px 20px;
-    margin-bottom: 200px;
+    margin-bottom: 250px;
 }
 .contact-title{
     color: #1e1e2f;
