@@ -29,7 +29,7 @@ This project is **functional but still in progress**. The website is live in a b
 * **Design:** Responsive layout with mobile-first approach
 * **Planned Additions:** PHP / Node.js backend for form handling and database connectivity
 * **Database (Planned):** MySQL or MongoDB
-* **Hosting:** Currently local; planned deployment to Vercel or cPanel hosting
+* **Hosting:** Currently on Github for Testing purposes https://zaidiguy.github.io/Ghadeeri-Caravan/ ; planned deployment to Vercel or cPanel hosting
 
 ## Usage
 
